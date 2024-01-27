@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+/* Contenedor principal con un ancho del 80% y centrado */
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+/* Estilos de la barra de búsqueda */
+.search-bar {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+
+/* Estilos del número de teléfono */
+.phone-number {
+    position: relative;
+    top: -60px;
+    margin: 1px 0;
+    font-size: 1em;
+    right: -30px;
+
+}
+
+
+
+/* Estilos del encabezado principal */
+.header {
+    background-color: #f9f9f9;
+    color: #020202;
+    padding: 20px 0;
+
+}
+
+/* Cambia la disposición el titulo flexible a columna */
+.header--flex {
+    display: flex;
+}
+
+/* Estilos del título principal */
+.header__title {
+    margin: 0;
+    font-size: 5em;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* Estilos del menú */
+.menu {
+    list-style: none;
+    margin:  0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos del menú horizontalmente */
+}
+
+/* Separar */
+.menu__item {
+    margin: 0 25px;
+}
+
+/* Estilos de los enlaces del menú */
+.menu__link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    position: relative;
+    top: -90px;
+
+}
+
+/* Cambia el color del enlace del menú al pasar el ratón */
+.menu__link:hover {
+    color: #920404;
+}
+
+/* Estilos adicionales para mejorar la apariencia del menú */
+.menu {
+    background-color: #ffffff;
+    color: #020202;
+}
+
+
+
+/* Estilos del carrusel de imágenes */
+.slider__img {
+    width: 100% ;
+    height: 30%;
+}
+
+
+/* Resaltar color */
+.main-content {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+/* Titulo de producto */
+.content-title {
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Ordenar cuadros */
+.container-products {
+    display: flex;
+}
+
+/* producto */
+.product-box {
+    width: 300px;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(154, 40, 40, 0.1); /*Color de borde */
+    transition: transform 0.3s ease-in-out; /*tiempo de la transicion */
+}
+
+/* Efecto de agrandar el producto al pasar el ratón */
+.product-box:hover {
+    transform: scale(1.09);
+}
+
+/* Estilos de la imagen del producto */
+.product-box__img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo de información */
+.container-testimonials {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Estilos del título de la sección de testimonios */
+.section-title {
+    font-size: 2em;
+    margin: 0;
+    
+}
+
+/* Texto 2 */
+.testimonial-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Texto 3 */
+.testimonial-txt {
+    font-size: 1.2em;
+}
+
+/* Imagenes de inmedio */
+.container-editor {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+/* Estilos de cada caja del editor */
+.editor-box {
+    width: 29%;
+    box-shadow: 0 0 10px rgba(8, 8, 8, 0.1);
+    overflow: hidden;
+}
+
+/* Estilos de la imagen en cada caja del editor */
+.editor-box__img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Estilos del contenedor de consejos */
+.container-tips {
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Estilos de cada consejo */
+.tip-box {
+    width: 46%;
+    text-align: center;
+    margin: 5px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+/* Cuadro de información */
+.btn-shop {
+    padding: 10px 30px;
+    margin-top: 30px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 9px;
+    border: none;
+
+}
+
+/* Efecto de agrandar el consejo al pasar el ratón */
+.tip-box:hover {
+    transform: scale(1.05);
+}
+
+/* Título */
+.tip-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #000000;
+}
+
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Estilos de cada sección del pie de página */
+.footer__section {
+    width: 22%;
+    margin: 20px;
+}
+
+/* Estilos del título de cada sección del pie de página */
+.footer__title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilos del texto de cada sección del pie de página */
+.footer__txt {
+    font-size: 1.2em;
+}
+
+/* Estilos del enlace de cada sección del pie de página */
+.footer__link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+/* Estilos del cuadro de entrada del pie de página */
+.footer__input {
+    width: 50%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+/* Estilos del texto de derechos de autor del pie de página */
+.copy {
+    font-size: 1.2em;
+    color: #777;
+    margin-top: 80px;
+}
+
+/* Media Queries para un diseño receptivo */
+@media screen and (max-width: 768px) {
+    .footer__section {
+        width: 48%; /* En dispositivos móviles, cada sección ocupa el 48% del ancho */
+    }
+}
+
+
+
+/* Media Queries para un diseño4receptivo */
+@media screen and (max-width: 768px) {
+    .container--flex {
+        flex-direction: column;
+       
+    }
+
+    
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+
+    .menu__item {
+        margin: 10px 0;
+    }
+
+    .header__title {
+        margin: 10px 0;
+    }
+
+    .header__link {
+        margin: 10px 0;
+    }
+
+    .header__input {
+        margin: 10px 0;
+    }
+
+    .container-products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-box {
+        width: 100%;
+    }
+
+
+    .phone-number,
+    .search-bar {
+        display: none;
+    }
+    
+    .container-testimonials,
+    .container-editor,
+    .container-tips,
+    .footer__section {
+        width: 100%;
+    }
+}
